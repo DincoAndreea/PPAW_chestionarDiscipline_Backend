@@ -1,0 +1,35 @@
+﻿@model chestionarDisciplineMVC.Models.anidestudiuModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>anidestudiu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cicluldestudii.nume_ciclu_de_studii)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cicluldestudii.nume_ciclu_de_studii)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.anul_de_studiu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.anul_de_studiu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_ani_de_studiu }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

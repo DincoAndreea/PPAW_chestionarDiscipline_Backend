@@ -1,0 +1,1 @@
+2024-01-19 19:49:30.8096|ERROR|Autofac.Core.Activators.Reflection.BoundConstructor|Eroare la preluarea anului de studiu si adaugarea in cache.(Nivel Servicii)
